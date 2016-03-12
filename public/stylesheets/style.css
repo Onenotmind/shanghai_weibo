@@ -1,0 +1,152 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow: hidden; 
+}
+
+.body-wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#map {
+	height: 100%;
+	width:92%;
+	border: 8px solid #fff;
+	float:left;
+}
+
+#button-group {
+	float:right;
+	width: 8%;
+	margin: 0px;
+	
+  	border-radius: 0px;
+}
+
+#select-modal .select-activity .checkbox {
+	margin: 1rem;
+}
+
+#select-modal .select-time {
+	padding: 1rem;
+}
+
+#select-modal .select-time div.input {
+	margin-right: 3rem;
+}
+
+#popup {
+	max-width: 400px;
+	max-height: 200px;
+
+	overflow-x: hidden;
+	font-size: 12px;
+}
+
+#popup .segments .segment {
+	padding: 6px;
+}
+
+#spinner-wrapper {
+	height: 100px;
+	width: 100px;
+	position: fixed;
+	left: 50%;
+	top: 40%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+
+#spinner-wrapper .ui.dimmer {
+	border-radius: 10px;
+  	background-color: rgba(27,129,62,0.5);
+}
+
+.button-group {
+	padding-bottom: 5rem;
+}
+
+.piechart .arc {
+	opacity: 0.7;
+}
+
+.piechart .pie-text {
+	font-size: 12px;
+	fill: forestgreen;
+}
+
+.modals.dimmer .ui.scrolling.modaL {
+	margin-top: 2.5rem !important;
+	margin-bottom: 2.5rem !important;
+}
+
+#themeriver-modal .themeriver-header {
+	margin-right: 7%;
+}
+
+#themeriver-modal .switcher {
+	margin-right: 5%;
+}
+
+.axis path,
+.axis line {
+ 	fill: none;
+ 	stroke: #fff;
+ 	shape-rendering: crispEdges;
+}
+
+.axis text {
+	fill: #fff;
+	font-size: 12px;
+}
+
+.tick line {
+	opacity: 0.2;
+}
+
+.axis path {
+ 	opacity: 0.5;
+}
+
+#themeriver #rivers {
+  	clip-path: url(#themeriver-clip);
+}
+
+#themeriver #rivers .river {
+	  opacity: 0.7;
+}
+
+#themeriver #rivers .river.active {
+	stroke-width: 2px;
+	stroke: #fff;
+}
+
+#linechart #chart {
+  	clip-path: url(#linechart-clip);
+}
+
+#linechart #chart .line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.color-block, .color-label, .color-activity {
+	display: inline-block;
+}
+
+.color-block {
+	margin-left: 18px;
+	margin-bottom: 10px;
+  	cursor: pointer;
+}
+
+.color-block.inactive {
+	opacity: 0.3;
+}
+.color-label {
+	width: 20px;
+	height: 12px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
